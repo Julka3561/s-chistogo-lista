@@ -44,7 +44,7 @@ body {
 
 .text-center {
   justify-content: center;
-  margin-right: -4px;
+  margin-left: 4px;
 }
 
 .text-right {
@@ -83,7 +83,7 @@ body {
 
 .cover {
   padding: 10px 0px 0px 20px;
-  background-image: url("/images/cover.svg");
+  background-image: url("../images/cover.svg");
   background-repeat: no-repeat;
   background-position: bottom right -2px;
   background-size: 95% auto;
@@ -105,14 +105,14 @@ body {
 
 .intro__heading {
   color: #ccc;
-  font-size: 100%;
-  font-weight: 400;
   display: flex;
   justify-content: space-between;
 }
 
 .intro__title {
+  font-size: 100%;
   width: 200px;
+  font-weight: 400;
 }
 
 .intro__date {
@@ -229,4 +229,5 @@ body {
   font-size: 14px;
   display: flex;
   gap: 16px;
+  list-style-type: none;
 }
